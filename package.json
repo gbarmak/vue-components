@@ -5,7 +5,7 @@
   "main": "./dist/vue-components.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-components ./src/index.js",
+    "build": "vue-cli-service build --target lib --name vue-components ./src/index.js --mode production",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
